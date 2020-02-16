@@ -1,0 +1,30 @@
+{
+    "test1": {
+        "input": "42",
+        "output": 42
+    },
+    "test2": {
+        "input": "    -42",
+        "output": -42
+    },
+    "test3": {
+        "input": "4193 with words",
+        "output": 4193
+    },
+    "test4": {
+        "input": "words and 987",
+        "output": 0
+    },
+    "test5": {
+        "input": "-91283472332",
+        "output": -2147483648
+    },
+    "test6": {
+        "input": "  1000000   ",
+        "output": 1000000
+    },
+    "test7": {
+        "input": " ",
+        "output": 0
+    }
+}
